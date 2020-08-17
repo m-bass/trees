@@ -1,0 +1,30 @@
+{
+    "name": "m-bass/trees",
+    "type": "library",
+    "description": "Just another implementation of object trees, with flexible traversal and dumping utilities",
+    "license": "GNU General Public License v3.0",
+    "keywords": ["node", "trees",  "rooted tree", "left-child", "right-sibling", "tree traversal", "tree dumping", "pretty-printer"],
+    "authors": [
+        {
+            "name": "Marco Bosatta",
+            "email": "03mboss61@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "trees\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "trees\\tests\\": "tests/"
+        }
+    }
+}
+
